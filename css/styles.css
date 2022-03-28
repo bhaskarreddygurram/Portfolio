@@ -1147,3 +1147,9 @@ Products Page
     justify-content: space-around;
 }
 
+
+/* Hidden Some Section Later we may resume */
+
+.projects, .blog, .timeline {
+  display: none;
+}
