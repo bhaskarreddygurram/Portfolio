@@ -144,6 +144,10 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  
+}
+.btnbuynow {
+  margin-left: 100px;
 }
 .btn:hover {
   color: var(--clr-primary-1);
