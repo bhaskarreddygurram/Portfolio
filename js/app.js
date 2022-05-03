@@ -26,7 +26,7 @@ date.innerHTML = new Date().getFullYear();
 function submitForm(e){
   console.debug(' e:', e);
 }
-
+/*
 form.addEventListener('submit', function(event) {
   event.preventDefault();
   console.debug( ' e:', event.target, ' this:', this);
@@ -34,7 +34,8 @@ form.addEventListener('submit', function(event) {
   let value = formname.value;
   console.debug( ' value:', value);
   if ( value ) {
-    window.alert("Thanks"+ value + " for contacting us. we will reach you soon");
+    window.alert("Thanks "+ value + " for contacting us. we will reach you soon");
     form.reset();
   }
 });
+*/
