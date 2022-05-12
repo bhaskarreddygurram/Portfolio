@@ -14,10 +14,10 @@ const list = document.querySelector('#ul');
 })
 .then(jsondata => console.log(jsondata));*/
 
-const FilesData= require('../Downloadfiles.json'); 
+/*const FilesData= require('../Downloadfiles.json'); 
 console.log(FilesData);
 
-console.log(FilesData.Files);
+console.log(FilesData.Files); */
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 80) {
