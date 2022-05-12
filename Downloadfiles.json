@@ -1,0 +1,34 @@
+{
+  "Files": [
+    {
+      "id": 1,
+      "name": "Eggs",
+      "image": "https://d17zv3ray5yxvp.cloudfront.net/variants/W1ymDizfe679XsfX9uP8A5bU/7b27a910a7194c812eacf34700e38dcab3abed02f30837d1dad313c5651bb5fa",
+      "price": {
+        "amount": 7.99,
+        "currency": "Kn",
+        "measureUnit": "Kom"
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://d17zv3ray5yxvp.cloudfront.net/variants/b1qEMnNGbwiwV5cWysofPoqz/7b27a910a7194c812eacf34700e38dcab3abed02f30837d1dad313c5651bb5fa",
+      "name": "Milk",
+      "price": {
+        "amount": 4.99,
+        "currency": "Kn",
+        "measureUnit": "Kom"
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://d17zv3ray5yxvp.cloudfront.net/variants/1avpwnxKAEqEpTf1k3VCbBbg/7b27a910a7194c812eacf34700e38dcab3abed02f30837d1dad313c5651bb5fa",
+      "name": "Cheese",
+      "price": {
+        "amount": 44.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      }
+    }
+  ]
+}
