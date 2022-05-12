@@ -8,6 +8,14 @@ const form = document.querySelector('#myForm');
 const list = document.querySelector('#ul');
 
 
+let Files = [
+  {"fileTitle1" :"https://www.linkedin.com/in/chaitanya-mandala-27004360/"},
+  {"fileTitle2": "https://www.linkedin.com/in/chaitanya-mandala-27004360/"},
+  {"fileTitle3": "https://www.linkedin.com/in/chaitanya-mandala-27004360/"}
+  /* and so on... */
+];
+
+
 /*fetch("../Downloadfiles.json")
 .then(response => {
    return response.json();
@@ -57,7 +65,8 @@ let download = ['file1', 'file2']
 let output = '';
 for (i=0; i<download.length; i++) {
   //output += '<li>' + download[i]+ '</li>';
-  output += '<li> <a href="https://www.w3schools.com/">'+download[i]+'</a></li>';
+  
+  output += '<li> <a href="https://www.linkedin.com/in/chaitanya-mandala-27004360/">'+download[i]+'</a></li>';
 
 }
 list.innerHTML = output;
@@ -83,7 +92,7 @@ const init = () => {
       // 3. parse JSON string into JSON Object
       console.log('response =', response);
       const json = JSON.parse(response);
-      console.log('your local JSON =', JSON.stringify(json, null, 4));
+      console.log('your local JSON =', JSON.stringify(json, null, 4).Files);
       // 4. render to your page
       //const app = document.querySelector('#app');
       //app.innerHTML = `<pre>${JSON.stringify(json, null, 4)}</pre>`;
