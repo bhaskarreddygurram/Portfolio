@@ -93,7 +93,7 @@ const init = () => {
       console.log('response =', response);
       const json = JSON.parse(response);
       console.log('your local JSON =', JSON.stringify(json, null, 4));
-      console.log('Files =', JSON.Files);
+      console.log('Files =', response.Files);
       // 4. render to your page
       //const app = document.querySelector('#app');
       //app.innerHTML = `<pre>${JSON.stringify(json, null, 4)}</pre>`;
